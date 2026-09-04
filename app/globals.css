@@ -1,0 +1,34 @@
+:root {
+  --ps-bg: #f6f7fb;
+  --ps-surface: #ffffff;
+  --ps-border: #e2e4ec;
+  --ps-ink: #1c2130;
+  --ps-muted: #6b7080;
+  --ps-accent: #4f5fe0;
+  --ps-accent-bg: #eceeff;
+  --ps-sidebar: #171a26;
+  --ps-good: #1f9d6c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--ps-bg);
+  color: var(--ps-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+input,
+button,
+select {
+  font-family: inherit;
+}
